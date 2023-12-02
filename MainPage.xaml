@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CisGaAssignment2.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Spacing="25"
+            Padding="30,0"
+            VerticalOptions="Center">
+            <Label Text="Display Box" />
+            <Editor x:Name="editDisplay" IsEnabled="False" />
+
+            <Label Text="User Input - Short Message" />
+            <Entry x:Name="entDisplayMessage" />
+            <Button Text="Display Short Message from Entry" x:Name="btnDisplayShortMessage" Clicked="btnDisplayShortMessage_Clicked" />
+            <Button Text="Append Short Message from Entry" x:Name="btnAppendShortMessage" Clicked="btnAppendShortMessage_Clicked" />
+
+            <Label Text="User Input - Editor (Long Message)" />
+            <Editor x:Name="editUserLongMessage" />
+            <Button Text="Append Long Message From Editor" x:Name="btnAppendLongMessage" Clicked="btnAppendLongMessage_Clicked" />
+            <Button Text="Clear both Editors" x:Name="btnClear" Clicked="btnClear_Clicked" />
+
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
