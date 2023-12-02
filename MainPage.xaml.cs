@@ -36,11 +36,21 @@ namespace CisGaAssignment2
 
         }
 
+        /*
+         *     // This will append the message from our editor ( for long messages )
+                private void btnAppendLongMessage_Clicked(object sender, EventArgs e)
+                {
+                    string longMessageToAppend = editUserLongMessage.Text;
+                    editDisplay.Text += longMessageToAppend;
+                }
+         * 
+         */
+
         private void btnAppendLongMessage_Clicked(object sender, EventArgs e)
         {
 
         }
-        // I cant hear you, can you hear me
+     
     }
 
 }
