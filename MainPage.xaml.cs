@@ -32,7 +32,7 @@ namespace CisGaAssignment2
                 editDisplay.Text = "";
                 editUserLongMessage.Text = "";
             }
-
+            
 
         }
 
@@ -48,7 +48,8 @@ namespace CisGaAssignment2
 
         private void btnAppendLongMessage_Clicked(object sender, EventArgs e)
         {
-
+            string longMessageToAppend = editUserLongMessage.Text;
+            editDisplay.Text += longMessageToAppend;
         }
      
     }
